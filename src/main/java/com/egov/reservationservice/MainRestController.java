@@ -51,7 +51,7 @@ public class MainRestController {
 
     @GetMapping("bookRoom/details")
     public ResponseEntity<?> getByCustomer(@RequestHeader("Authorization") String token,
-                                                           @RequestParam String CustomerPhone) {
+                                                           @RequestParam("phone") String CustomerPhone) {
 
         logger.info("Received parameter for phone"+ CustomerPhone);
         String phone="";

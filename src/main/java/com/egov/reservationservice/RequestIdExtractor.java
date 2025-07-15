@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.reservationservice;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Service;

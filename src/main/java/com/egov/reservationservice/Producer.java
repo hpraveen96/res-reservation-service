@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.reservationservice;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

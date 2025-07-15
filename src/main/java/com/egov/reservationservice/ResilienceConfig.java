@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.reservationservice;
 
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.retry.RetryConfig;

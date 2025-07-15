@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.reservationservice;
 
 
 import io.swagger.v3.oas.models.OpenAPI;

@@ -1,4 +1,4 @@
-package com.egov.projectservice;
+package com.egov.reservationservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,12 +6,12 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
 @ServletComponentScan
-public class ProjectServiceApplication
+public class ReservationServiceApplication
 {
 
     public static void main(String[] args)
     {
-        SpringApplication.run(ProjectServiceApplication.class, args);
+        SpringApplication.run(ReservationServiceApplication.class, args);
     }
 
 }
